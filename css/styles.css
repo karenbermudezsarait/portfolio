@@ -11469,7 +11469,7 @@ header.masthead .h1 {
 }
 
 #portfolio img.img-fluid {
-  height: 267px;
+  aspect-ratio: 16 / 9;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption,

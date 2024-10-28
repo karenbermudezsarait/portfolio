@@ -11472,6 +11472,22 @@ header.masthead .h1 {
   aspect-ratio: 16 / 9;
 }
 
+.img-horizontal{
+  aspect-ratio: 16 / 9;
+}
+
+.mosugua-text{
+  color: #cfeaf1;
+}
+
+.mosugua-bg{
+  background-color: #cfeaf1;
+}
+
+.mobtuar-bg{
+  background-color: #6587e9;
+}
+
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption,
 #portfolio .container-sm .portfolio-box .portfolio-box-caption,
 #portfolio .container-md .portfolio-box .portfolio-box-caption,

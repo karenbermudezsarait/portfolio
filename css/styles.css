@@ -11464,6 +11464,11 @@ header.masthead .h1 {
   padding-top: 4rem;
 }
 
+.main-container.innerpage{
+  padding-top: 6rem;
+  background: none !important;
+}
+
 .innerpage {
   background: var(--bs-primary) !important;
 }
@@ -11474,6 +11479,16 @@ header.masthead .h1 {
 
 .img-horizontal{
   aspect-ratio: 16 / 9;
+}
+
+/* colores */
+
+.fullescabio-bg {
+  background-color: #d09645;
+}
+
+.fullescabio-text {
+  color: #d09645;
 }
 
 .mosugua-text{

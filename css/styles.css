@@ -35,7 +35,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
 
-  --bs-primary: #b09fbd;
+  --bs-primary: #ffbd66;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -85,7 +85,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
 
-  --bs-link-color: #b09fbd;
+  --bs-link-color: #ffbd66;
   --bs-link-hover-color: #c34e2e;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -105,7 +105,7 @@
   color: #ffdeec;
 }
 .Spring-Mercies-5-hex {
-  color: #b09fbd;
+  color: #ffbd66;
 }
 
 /* Color Theme Swatches in RGBA */
@@ -122,12 +122,12 @@
   color: rgba(255, 221, 236, 1);
 }
 .Spring-Mercies-5-rgba {
-  color: rgba(175, 158, 188, 1);
+  color: #ffbd66;
 }
 
 /* Color Theme Swatches in HSLA */
 .Spring-Mercies-1-hsla {
-  color: hsla(129, 15, 74, 1);
+  color: #ffbd66);
 }
 .Spring-Mercies-2-hsla {
   color: hsla(93, 31, 86, 1);
@@ -139,7 +139,7 @@
   color: hsla(334, 100, 93, 1);
 }
 .Spring-Mercies-5-hsla {
-  color: hsla(273, 18, 68, 1);
+  color: #ffbd66);
 }
 
 *,

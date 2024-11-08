@@ -26,6 +26,7 @@ window.addEventListener('DOMContentLoaded', event => {
     // Shrink the navbar 
     navbarShrink();
 
+    
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
 
@@ -53,7 +54,8 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Activate SimpleLightbox plugin for portfolio items
     new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
+        elements: '.lightbox',
+        scrollZoom: true,
     });
 
 });

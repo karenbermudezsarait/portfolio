@@ -11464,12 +11464,43 @@ header.masthead .h1 {
   padding-top: 4rem;
 }
 
+.main-container.innerpage{
+  padding-top: 6rem;
+  background: none !important;
+}
+
 .innerpage {
   background: var(--bs-primary) !important;
 }
 
 #portfolio img.img-fluid {
-  height: 267px;
+  aspect-ratio: 16 / 9;
+}
+
+.img-horizontal{
+  aspect-ratio: 16 / 9;
+}
+
+/* colores */
+
+.fullescabio-bg {
+  background-color: #d09645;
+}
+
+.fullescabio-text {
+  color: #d09645;
+}
+
+.mosugua-text{
+  color: #cfeaf1;
+}
+
+.mosugua-bg{
+  background-color: #cfeaf1;
+}
+
+.mobtuar-bg{
+  background-color: #6587e9;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption,

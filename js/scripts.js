@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', event => {
     // Shrink the navbar 
     navbarShrink();
 
-    
+
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
 
@@ -56,6 +56,29 @@ window.addEventListener('DOMContentLoaded', event => {
     new SimpleLightbox({
         elements: '.lightbox',
         scrollZoom: true,
+    });
+
+
+    document.getElementById("submitButton").addEventListener("click", function () {
+        // Captura los valores de los campos
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const phone = document.getElementById("phone").value;
+        const message = document.getElementById("message").value;
+
+        // Validación básica
+        if (!name || !email || !phone || !message) {
+            alert("Por favor, complete todos los campos.");
+            return;
+        }
+
+        // Crear el enlace mailto
+        const mailtoLink = `mailto:karenbermudezmora@gmail.com?subject=Contacto de ${encodeURIComponent(name)}&body=${encodeURIComponent(
+            `Nombre: ${name}\nCorreo: ${email}\nTeléfono: ${phone}\n\nMensaje:\n${message}`
+        )}`;
+
+        // Abrir el cliente de correo
+        window.location.href = mailtoLink;
     });
 
 });

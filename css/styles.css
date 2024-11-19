@@ -11547,13 +11547,13 @@ section#advices{
 
 section#advices::before {
   content: '';
-  width: 1300px;
-  height: 1167px;
+  width: 981px;
+  height: 938px;
   background: url(../assets/img/svg/linea3.svg);
   display: block;
   position: absolute;
   left: 8%;
-  top: 21%;
+  top: 43%;
   background-size: cover;
   transform: rotate(16deg);
   opacity: 0.5;

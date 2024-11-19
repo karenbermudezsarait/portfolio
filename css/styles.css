@@ -11540,3 +11540,21 @@ section#about::after {
   background-size: cover;
   transform: rotate(97deg);
 }
+
+section#advices{
+  position: relative;
+}
+
+section#advices::before {
+  content: '';
+  width: 1300px;
+  height: 1167px;
+  background: url(../assets/img/svg/linea3.svg);
+  display: block;
+  position: absolute;
+  left: 8%;
+  top: 21%;
+  background-size: cover;
+  transform: rotate(16deg);
+  opacity: 0.5;
+}
